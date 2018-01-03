@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Address</string>
+
+    <string name="french_label">French</string>
+    <string name="english_label">English</string>
+
+    <string name="alert_title">Languages:</string>
+    <string name="no_list">There are no saved contacts</string>
+    <string name="menu_delete">Delete Address</string>
+    <string name="menu_insert">Insert New Address</string>
+    <string name="menu_about">About </string>
+</resources>

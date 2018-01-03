@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.katrina.myaddress.MyAddressDetailActivity">
+
+    <RadioGroup
+        android:id="@+id/designationButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/mr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr"
+            />
+        <RadioButton
+            android:id="@+id/ms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ms"
+            />
+        <RadioButton
+            android:id="@+id/mrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mrs"
+            />
+        <RadioButton
+            android:id="@+id/dr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr"
+            />
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/designationButtons">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+             />
+
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="katrina" />
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Name"
+            />
+
+            <EditText
+                android:id="@+id/editSecondtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copeland" />
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 main st" />
+        </TableRow>
+        <TableRow>
+            <Spinner
+                android:id="@+id/provinceSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/provinces"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                />
+
+            <EditText
+                android:id="@+id/editCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="canada" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Postal Code"
+                />
+
+            <EditText
+                android:id="@+id/editPostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m4e 5g6" />
+            <Button
+                android:id="@+id/submitButton"
+                android:text="Submit"/>
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

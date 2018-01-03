@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mon Adresse</string>
+    <string name="no_list">Il n\'y a pas de contacts enregistrés</string>
+    <string name="menu_delete">Supprimer l\'adresse</string>
+    <string name="menu_insert">Insérer une nouvelle adresse</string>
+    <string name="menu_about">Sur </string>
+</resources>
